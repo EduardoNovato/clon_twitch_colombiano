@@ -1,5 +1,5 @@
 import React from "react";
-import nmsk from "../assets/nmsk.jpg";
+import nmsk from "../assets/bill.jpg";
 import "../styles/Perfil.css";
 import Recientes from "./Recientes";
 
@@ -9,7 +9,7 @@ function Perfil() {
       <div className="profile__topLeft">
         <img src={nmsk}></img>
         <div className="profile__topLeftDetails">
-          <h1>nsmkxkvm</h1>
+          <h1>Juansin</h1>
           <h3>820k followers</h3>
         </div>
       </div>
@@ -19,16 +19,16 @@ function Perfil() {
         <i className="fas fa-ellipsis-v"></i>
       </div>
       <div className="profile__menu">
-        <h2 className="active">Inicio</h2>
-        <h2>Info</h2>
-        <h2>Horario</h2>
-        <h2>Videos</h2>
-        <h2>
+        <h3 className="active">Inicio</h3>
+        <h3>Info</h3>
+        <h3>Horario</h3>
+        <h3>Videos</h3>
+        <h3>
           <i className="fas fa-arrow-up"></i>
-        </h2>
-        <h2>Chat</h2>
+        </h3>
+        <h3>Chat</h3>
         <div className="profile__recent">
-          <h2>Recientes</h2>
+          {/* <h3>Recientes</h3>
           <div className="profile__recentItems">
             <Recientes
               url={"https://www.youtube.com/watch?v=19oyIxirj7o"}
@@ -49,12 +49,12 @@ function Perfil() {
               url={"https://www.youtube.com/watch?v=0pFi6cQlIKs"}
               title={"Yo?"}
             />
-          </div>
-          <div className="profile__categories">
+          </div> */}
+          {/* <div className="profile__categories">
             <h2>Hptas programadores de la India ni para copiar codigo sirven</h2>
-            <img src="https://rockcontent.com/es/wp-content/uploads/sites/3/2019/02/uso-dos-emoji-1024x538.png"/>
+            <img src="https://rockcontent.com/es/wp-content/uploads/sites/3/2019/02/uso-dos-emoji-1024x538.png" />
             <h3>Me tiene arto este clon</h3>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
